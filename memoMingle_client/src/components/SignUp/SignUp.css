@@ -1,0 +1,54 @@
+/* Login.css */
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 56px); /* Adjust height for navbar */
+    background-color: #f8f9fa; /* Light background color */
+    padding-top: 56px; /* Adjust if navbar height changes */
+    width: 100%; /* Full width of the screen */
+}
+
+.signup-form {
+    width: 100%; /* Full width of the parent container */
+    max-width: 600px; /* Set a max width for large screens */
+    padding: 20px;
+    margin: auto; /* Center the form */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.mb-3 {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+.form-control {
+    width: 100%; /* Full width of the input */
+    padding: 10px; /* Comfortable padding */
+    margin: 5px 0; /* Margin between inputs */
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+.btn {
+    width: 100%; /* Full width for the button */
+    padding: 10px; /* Comfortable padding */
+    background-color: #343a40; /* Dark button background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn:disabled {
+    background-color: #6c757d; /* Grey background when disabled */
+    cursor: not-allowed; /* Not allowed cursor */
+}

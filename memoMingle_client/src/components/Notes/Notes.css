@@ -1,0 +1,51 @@
+/* Custom styles for modal */
+.modal-header {
+  background-color: #cfdae4;
+  color: #f3e5e5;
+}
+
+.modal-title {
+  background-color: #cfdae4;
+  color: #23272b;
+  font-weight: bold;
+}
+
+.modal-body {
+  background-color: #dbe7f3;
+}
+
+.modal-footer {
+  background-color: #ebeff4;
+  border-top: 1px solid #dee2e6;
+}
+
+.form-group label {
+  color: #23272b;
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+
+.btn-close {
+  background-color: #23272b;
+  background: none;
+  border: none;
+}
+
+.btn-close:hover {
+  color: #000;
+}
+

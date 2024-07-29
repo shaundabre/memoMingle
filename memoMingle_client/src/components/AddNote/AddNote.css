@@ -1,0 +1,39 @@
+/* Custom styles for AddNote component */
+.form-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #495057;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+  }
+  
+  .form-control:focus {
+    border-color: #343a40;
+    box-shadow: 0 0 5px rgba(52, 58, 64, 0.5);
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  

@@ -1,0 +1,20 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Ensure that the page content starts below the navbar */
+  body {
+    padding-top: 70px; /* Adjust according to the navbar height */
+  }
+  
+  /* Alert styles */
+  .alert {
+    position: fixed;
+    top: 70px; /* Adjust according to your navbar height */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+  }
